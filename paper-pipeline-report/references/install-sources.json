@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "bundle_version": "1.1.0",
+  "verified_on": "2026-11-25",
+  "primary": {
+    "name": "paper-pipeline-report",
+    "repo": "Xiaoye119/paper-pipeline-report",
+    "path": "paper-pipeline-report",
+    "ref": "v1.1.0"
+  },
+  "secondary": [
+    {
+      "name": "doc2x-cli",
+      "repo": "NoEdgeAI/doc2x-cli-skills",
+      "path": "skills/doc2x-cli",
+      "ref": "41864e8aca014712807e9cde872cfcd90d7ac87e",
+      "role": "Doc2X 文档解析与导出操作指导",
+      "skill_md_sha256": "d5bba9f654742d3007875593d7498f5de4736d071d27eeead004c777f47b5a1f",
+      "source_url": "https://github.com/NoEdgeAI/doc2x-cli-skills/tree/41864e8aca014712807e9cde872cfcd90d7ac87e/skills/doc2x-cli"
+    },
+    {
+      "name": "pdf",
+      "repo": "anthropics/skills",
+      "path": "skills/pdf",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "skill_md_sha256": "d1c7caf5f35eb7d37877dd7fc33a095037be2b34fb5d2f7f4d43bde3165bb4ee",
+      "role": "PDF 页面渲染、提图与核验",
+      "source_url": "https://github.com/anthropics/skills/tree/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/pdf"
+    },
+    {
+      "name": "ljg-paper",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-paper",
+      "ref": "c84ca0d027db6442d408f1124d8553dcc6b2b29d",
+      "skill_md_sha256": "a84018d01099109ef1070c89f194f3fde175a9499080301082e52421a071f72d",
+      "role": "把论文机制解释清楚",
+      "source_url": "https://github.com/lijigang/ljg-skills/tree/c84ca0d027db6442d408f1124d8553dcc6b2b29d/skills/ljg-paper"
+    },
+    {
+      "name": "doc-coauthoring",
+      "repo": "anthropics/skills",
+      "path": "skills/doc-coauthoring",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "skill_md_sha256": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4",
+      "role": "组织成稿与读者检查",
+      "source_url": "https://github.com/anthropics/skills/tree/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/doc-coauthoring"
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/scientific-critical-thinking",
+      "ref": "c21d13b3cc2894680229ba9959a53281acb9200e",
+      "skill_md_sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+      "role": "判断结论与证据边界",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/c21d13b3cc2894680229ba9959a53281acb9200e/skills/scientific-critical-thinking"
+    }
+  ],
+  "notes": [
+    "Fixed sources identify exact projects; do not substitute same-named skills.",
+    "SKILL.md hashes verify the entrypoints; install each entire directory from its pinned commit, including references and scripts.",
+    "doc2x-cli skill instructions and the Doc2X CLI/MCP runtime are separate installations.",
+    "The Doc2X skill is pinned to its current upstream revision; it is not the older local 0.1.5 skill used during earlier work."
+  ]
+}

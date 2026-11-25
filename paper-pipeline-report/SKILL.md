@@ -2,7 +2,7 @@
 name: paper-pipeline-report
 description: "将单篇或多篇研究论文写成带原图的中文数据管线详解：追踪原始数据到训练样本，解释处理机制、粒度、跨论文差异及证据边界。适用于论文精读、数据清洗与构建流程报告；不用于仅查论文或只翻译摘要。"
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # 论文数据管线讲透
@@ -14,7 +14,7 @@ metadata:
 - 默认读者有基本技术常识，尚未读过论文。用户给参考文档时，提取解释深度、证据口径、图文组织方式，不照搬其事实或瑕疵。
 - 输入和目标明确就直接完成全文；只在身份、访问或影响结论的范围缺失时才问。不重新询问已有的文风、技能选择或逐节审批。
 - 默认交付一份 Markdown 报告及引用图片，服从指定格式、目录。解析文本、提纲、评测分数或几篇独立摘要不能代替成稿。长度取决于信息量，不能为简短省略重要分支。
-- 本技能自包含，不必安装整套辅助技能。需要借助当前环境已有技能时，按 [references/skill-routing.md](references/skill-routing.md) 选择相关部分。
+- 本技能自包含。用户选择完整套件安装时，按 [references/install-sources.json](references/install-sources.json) 准备全部指定来源的配套技能；报告执行时仍按 [references/skill-routing.md](references/skill-routing.md) 选择需要的部分。
 
 ## 从原文重建管线
 
