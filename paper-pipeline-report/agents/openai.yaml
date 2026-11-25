@@ -1,0 +1,4 @@
+interface:
+  default_prompt: "用 $paper-pipeline-report 把这些论文写成带原图的中文数据管线详解，讲透处理机制、训练样本、跨论文差异和证据边界，检查后直接交付成稿。"
+  display_name: "论文数据管线讲透"
+  short_description: "把单篇或多篇论文写成带原图、机制解释、横向比较和证据边界的中文报告"
